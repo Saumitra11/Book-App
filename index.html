@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Book App</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Books to be Read</h1>
+          <p>Books for Gamers</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">God Is a Gamer</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Gamer</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Reality is Broken</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Assassin's Creed</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+                            <input type="checkbox" id="hide">
+            <label for="hide">Hide all books</label>
+	    <form id="add-book">
+	    	<input type="text" placeholder="Add a book..." />
+	    	<button>Add</button>
+	    </form>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
